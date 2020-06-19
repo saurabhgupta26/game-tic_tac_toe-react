@@ -1,9 +1,18 @@
 import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-  )
-}
+export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
 
-export default App;
+    }
+  }
+  render() {
+    return (
+     <>
+     <h1> Tic Tac Toe</h1>
+     </> 
+    )
+  }
+}
